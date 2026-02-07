@@ -32,7 +32,7 @@ print(age**2)
 print('-'*80)
 
 print("tempature conversion")
-f_temp = float(input(f"{name} Enter a tempature in Farenheit: "))
-celsius = (f_temp - 32) * (5/9)
+temp_farenheit = float(input(f"{name} Enter a tempature in Farenheit: "))
+celsius = (temp_farenheit - 32) * (5/9)
 print("f",{celsius}, "c")
 
